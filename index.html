@@ -1,64 +1,75 @@
 <!DOCTYPE html>
-<html amp lang="ur">
+<html amp lang="en">
 <head>
     <meta charset="utf-8">
     <title>App Landing Page</title>
+    
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    
+
+    <meta property="og:title" content="App Landing Page">
+    <meta property="og:description" content="Click to get the app and join us!">
+    <meta property="og:image" content="https://api.pirsch.io/theme/files/42124_favicon.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://videycoo.github.io/fbo/">
+
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    
+    <link rel="canonical" href="https://videycoo.github.io/fbo/">
+
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
-    
+
     <style amp-custom>
-       body {
-         margin: 0;
-         font-family: "Open Sans", sans-serif;
-         background-color: #f4f4f4;
-       }
-       .main-image-container {
-         width: 100%;
-         max-width: 600px;
-         margin: 0 auto;
-         text-align: center;
-         padding-top: 20px;
-       }
-       #content-container {
-         padding: 24px;
-         text-align: center;
-         background: #fff;
-         margin: 20px;
-         border-radius: 8px;
-         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-       }
-       .cta-button {
-         display: inline-block;
-         background-color: #444;
-         color: #fff;
-         padding: 15px 30px;
-         text-decoration: none;
-         border-radius: 4px;
-         font-weight: bold;
-         margin-top: 20px;
-       }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            text-align: center;
+        }
+        .header-image {
+            margin-top: 50px;
+        }
+        #content-container {
+            padding: 30px;
+        }
+        .card-title {
+            font-size: 28px;
+            color: #333;
+        }
+        .app-content {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #444;
+            color: #fff;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
 
-    <div class="main-image-container">
+    <div class="header-image">
         <amp-img src="https://api.pirsch.io/theme/files/42124_favicon.jpg" 
-                 width="100" 
-                 height="100" 
+                 width="150" 
+                 height="150" 
                  layout="intrinsic" 
                  alt="App Icon">
         </amp-img>
     </div>
 
     <div id="content-container">
-        <div class="app-title">Welcome to App</div>
-        <h1 class="card-title">Download and Join Us</h1>
-        <p class="app-content">Click the button below to get started with our mobile experience.</p>
+        <h1 class="card-title">Welcome to App</h1>
+        <p class="app-content">Download our app to get the best experience on your mobile device.</p>
         
-        <a href="#" class="cta-button">GET THE APP</a>
+        <a href="YOUR_APP_LINK_HERE" class="cta-button">GET THE APP</a>
     </div>
 
 </body>
